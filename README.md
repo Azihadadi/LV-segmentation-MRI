@@ -1,7 +1,6 @@
 # LV-segmentation-MRI
-# Automatic Left Ventricle Segmentation Tool (Master Thesis Project)
 
-![Deep Learning result sample](demo/ِDL_demo.jpg)
+![Deep Learning result sample](demo/DL_demo.jpg)
 
 ## Overview
 
