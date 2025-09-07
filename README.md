@@ -105,7 +105,7 @@ Demo content located in `demo/` folder:
 
 ## Notes
 
-- Utilizes the official **[ACDC 2019 training dataset](https://www.creatis.insa-lyon.fr/Challenge/acdc/)** for robust evaluation and benchmarking.
+- Utilizes the official **[ACDC training dataset](https://www.creatis.insa-lyon.fr/Challenge/acdc/)** for robust evaluation and benchmarking.
 - Designed as a research-focused tool suitable for **further development and industrial evaluation**.
 
 ---
