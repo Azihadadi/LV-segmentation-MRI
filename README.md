@@ -1,4 +1,4 @@
-# LV segmentation MRI (Automatic Left Ventricle Segmentation Tool)
+# Deep Learning LV Segmentation MRI Tool
 
 ## Overview
 
