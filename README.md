@@ -85,9 +85,12 @@ The deep learning workflow consists of three main stages:
 
 Demo content located in `demo/` folder:
 - Example image: `DL_demo.jpg`
-- Demo videos: `demo_run1.mp4`, `demo_run2.mp4`
+- Demo videos:
+   - `Part I LV segmentation using K-means algorithm_1080p.mp4`
+   - `Part II create training datasets using GUI interface and conduct training_1080p.mp4`
+   - `Part III LV segmentation using deep learning algorithm_1080p.mp4`
   
-<img src="demo/DL_demo.jpg" alt="Deep Learning result sample" width="400"/>
+<img src="demo/DL_demo.jpg" alt="Deep Learning result sample" width="500"/>
 
 
 ---
