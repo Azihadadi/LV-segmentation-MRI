@@ -105,8 +105,7 @@ Demo content located in `demo/` folder:
 
 ## Notes
 
-- Developed as part of a **Master's thesis** in collaboration with **CHU Dijon Hospital**.
-- Dataset includes **registered cine- and delayed-enhancement MRI scans**.
+- Dataset includes **[training ACDC dataset](https://www.creatis.insa-lyon.fr/Challenge/acdc/)**.
 - Designed as a research-focused tool suitable for **further development and industrial evaluation**.
 
 ---
