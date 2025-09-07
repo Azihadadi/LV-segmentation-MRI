@@ -16,4 +16,55 @@ Key features:
 ---
 
 ## Folder Structure
+```
+├── EvaluationImages/ # Sample MRI images for evaluation
+├── icons/ # GUI icons
+├── Left-Ventricle-Database/ # Training dataset for Mask R-CNN
+│ ├── annots/
+│ ├── images/
+│ └── masks/
+├── SegmentedImages/ # Segmentation results
+├── demo/ # Demo videos and images
+├── LV_Segmentation.exe # Windows executable for GUI tool
+├── Mask_RCNN_segmentation.py # Deep Learning segmentation script
+├── network_training_LV.py # Mask R-CNN training script
+└── mccExcludedFiles.log
+```
+---
 
+## Installation
+
+1. Install **Python 3.7** and required packages:
+
+```bash
+pip install numpy matplotlib tensorflow opencv-python
+```
+2. Install MATLAB 2019 for GUI integration. Ensure MATLAB path is set correctly.
+
+3. (Optional) For Mask R-CNN training:
+```bash
+pip install torch torchvision
+```
+## Usage
+
+1. Launch LV_Segmentation.exe (Windows) or run MATLAB GUI.
+
+2. Select Segmentation Method: K-means or Deep Learning.
+
+3. Load Patient Data: Load MRI images in NIFTI format.
+
+4. Create ROI (for Deep Learning): Generate masks (Ellipse, Polygon, Free-Hand) to prepare the training dataset.
+
+5. Run Segmentation:
+
+  - Process single image or full patient folder.
+
+  - Segmented images saved in SegmentedImages/.
+
+  - Metrics (EDV, ESV, EF) displayed in GUI.
+
+6. Visualize Results:
+
+  - Systole and diastole phases can be navigated.
+
+  - Demo videos in demo/ folder illustrate segmentation outcomes
